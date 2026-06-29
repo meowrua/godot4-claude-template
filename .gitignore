@@ -1,0 +1,89 @@
+# === IDE and Editor ===
+.vs/
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Claude Code Local ===
+.claude/settings.local.json
+CLAUDE.local.md
+production/session-state/
+production/session-logs/
+
+# === Godot Engine ===
+.godot/imported/
+.godot/shader_cache/
+.godot/global_script_class_cache.cfg
+.godot/scene_groups_cache.cfg
+.godot/.gdignore
+*.import
+*.translation
+export_presets.cfg
+
+# === Python (Godot MCP Enhanced) ===
+python/.venv/
+python/__pycache__/
+python/*.pyc
+python/.Python
+python/pip-log.txt
+python/pip-delete-this-directory.txt
+
+# === Build Output ===
+build/
+builds/
+bin/
+obj/
+out/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+
+# === Compiled Shaders ===
+*.spv
+*.cso
+*.dxbc
+
+# === Temporary and Cache ===
+*.tmp
+*.temp
+*.cache
+*.log
+__pycache__/
+*.pyc
+node_modules/
+.npm/
+
+# === Archives ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# === Secrets and Environment ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# === OS Generated ===
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
